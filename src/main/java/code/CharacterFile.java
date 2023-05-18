@@ -3,6 +3,7 @@ package code;
 import basemod.abstracts.CustomEnergyOrb;
 import basemod.abstracts.CustomPlayer;
 import basemod.animations.SpriterAnimation;
+import code.cards.BStrike;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.math.MathUtils;
@@ -30,7 +31,7 @@ import static code.ModFile.*;
 
 public class CharacterFile extends CustomPlayer {
     public static final int ENERGY_PER_TURN = 3;
-    public static final int MAX_HP = 70;
+    public static final int MAX_HP = 90;
     public static final int STARTING_GOLD = 99;
     public static final int CARD_DRAW = 5;
     public static final int ORB_SLOTS = 0;
@@ -66,7 +67,7 @@ public class CharacterFile extends CustomPlayer {
     public ArrayList<String> getStartingDeck() {
         ArrayList<String> retVal = new ArrayList<>();
         for (int i = 0; i < 4; i++) {
-            retVal.add(Strike.ID);
+            retVal.add(BStrike.ID);
         }
         for (int i = 0; i < 4; i++) {
             retVal.add(Defend.ID);
