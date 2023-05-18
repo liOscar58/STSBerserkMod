@@ -5,7 +5,7 @@
 
     <artifactId>STSBerserkMod</artifactId>
     <version>0.0.1</version>
-    <name>"Oscar Li"</name>
+    <name>.</name>
     <description>TODO: Change this description</description>
     <!-- Change the above for mod information. -->
 
@@ -22,8 +22,8 @@
         <!--CHANGE THIS TO YOUR STEAM INSTALLATION-->
         <!-- Change the path for your system to match your Steam installation. -->
         <steam.windows>C:/Program Files (x86)/steam/steamapps</steam.windows>
-        <steam.mac>/Users/Oscar/Library/Application Support/Steam/steamapps/common/SlayTheSpire/SlayTheSpire.app/Contents/Resources/desktop-1.0.jar</steam.mac>
-        <Steam.path>/Users/Oscar/Library/Application Support/Steam/steamapps/common/SlayTheSpire/SlayTheSpire.app/Contents/Resources/desktop-1.0.jar</Steam.path>
+        <steam.mac>/Users/Oscar/Library/Application Support/Steam/steamapps/</steam.mac>
+        <Steam.path>/Users/Oscar/Library/Application Support/Steam/steamapps/</Steam.path>
 
     </properties>
 
